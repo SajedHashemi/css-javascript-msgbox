@@ -2,13 +2,10 @@ Use this script in your projects and change the style according to the theme of 
 How to use:
 - Put the following line related to the style at the beginning of the file and in the head tag
 <link rel="stylesheet" href="msgBox.css">
-
 - And put the following line of javascript code at the end of the file and after the body tag
 <script src="msgBox.js"></script>
-
 *Note: The path of the file should be changed relative to the storage address of the css file in the project.
-
-- Example:
+##### Example:
 <!DOCTYPE html>
 <html>
  <head>
