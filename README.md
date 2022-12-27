@@ -45,11 +45,10 @@ _info_icon
 ```
 **Note**: The syntax related to the definition of the button in the footer is as follows:
 > [{text:'text of button',callback:'function name string',params:[list of parameters for passed to callback function]},{...},{...}]
-
 #### Example:
 > [{text:'Yes',callback:'yes',params:['Hello!']},{text:'No'}]
 
-**Note**: The number of buttons that can be defined is a maximum of 3
+**Note**: The number of buttons that can be defined is a maximum of 3<br>
 **Note**: Not defining callback and params means closing the message box without any reaction
 
 ### Thank you
