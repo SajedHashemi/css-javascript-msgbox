@@ -109,10 +109,7 @@ function msgBoxClicked(elem, id, callback, params){
   if(callback==undefined || callback==''){
     msgBoxHide(id);
   }else{
-    if(window['\''+callback+'\'']=='function')
-      callback.apply(callback,params);
-    else
-      msgBoxHide(id);
+    callback.apply(callback,params);
   }
 }
 
