@@ -2,10 +2,15 @@ Use this script in your projects and change the style according to the theme of 
 How to use:
 - Put the following line related to the style at the beginning of the file and in the head tag
 <link rel="stylesheet" href="msgBox.css">
+
 - And put the following line of javascript code at the end of the file and after the body tag
 <script src="msgBox.js"></script>
+
 *Note: The path of the file should be changed relative to the storage address of the css file in the project.
-##### Example:
+
+####Example:
+
+```HTML
 <!DOCTYPE html>
 <html>
  <head>
@@ -26,6 +31,7 @@ How to use:
   }
  </script>
 </html>
+```
 
 *Note: The default icons in dimensions 64x64 of svg type with the following predefined names can be used:
 _success_icon
