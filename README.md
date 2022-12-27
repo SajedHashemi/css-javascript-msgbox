@@ -43,7 +43,7 @@ _warning_icon
 _info_icon
 
 **Note**: The syntax related to the definition of the button in the footer is as follows:
-[{text:'text of button',callback:'function name string',params:[list of parameters for passed to callback function]},{...},{...}]
+> [{text:'text of button',callback:'function name string',params:[list of parameters for passed to callback function]},{...},{...}]
 
 #### Example:
 ```javascript
