@@ -10,7 +10,7 @@ How to use:
 <script src="msgBox.js"></script>
 ```
 
-*Note: The path of the file should be changed relative to the storage address of the css file in the project.
+**Note**: The path of the file should be changed relative to the storage address of the css file in the project.
 
 #### Example:
 ```HTML
@@ -36,18 +36,22 @@ How to use:
 </html>
 ```
 
-*Note: The default icons in dimensions 64x64 of svg type with the following predefined names can be used:
+**Note**: The default icons in dimensions 64x64 of svg type with the following predefined names can be used:
 _success_icon
 _error_icon
 _warning_icon
 _info_icon
 
-*Note: The syntax related to the definition of the button in the footer is as follows:
+**Note**: The syntax related to the definition of the button in the footer is as follows:
+```JSON
 [{text:'text of button',callback:'function name string',params:[list of parameters for passed to callback function]},{...},{...}]
-example:
+```
+#### Example:
+```JSON
 [{text:'Yes',callback:'yes',params:['Hello!']},{text:'No'}]
+```
 
-*Note: The number of buttons that can be defined is a maximum of 3
-*Note: Not defining callback and params means closing the message box without any reaction
+**Note**: The number of buttons that can be defined is a maximum of 3
+**Note**: Not defining callback and params means closing the message box without any reaction
 
 *** Thank you ***
