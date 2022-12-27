@@ -1,5 +1,5 @@
-Use this script in your projects and change the style according to the theme of your project.<br>
-How to use:
+Use this script in your projects and change the style according to the theme of your project.<br><br>
+### How to use:
 - Put the following line related to the style at the beginning of the file and in the head tag
 ```HTML
 <link rel="stylesheet" href="msgBox.css">
