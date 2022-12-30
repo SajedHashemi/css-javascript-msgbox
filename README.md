@@ -10,7 +10,7 @@ Use this script in your projects and change the style according to the theme of 
 <script src="msgBox.js"></script>
 ```
 
-**Note**: The path of the file should be changed relative to the storage address of the css file in the project.
+**Note**: The path of the file should be changed relative to the storage address of the css\js file in the project.
 
 #### Example:
 ```HTML
